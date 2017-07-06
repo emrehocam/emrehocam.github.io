@@ -1,0 +1,35 @@
+BODY      {background-color:#FFFFFF; margin:0; padding:0}
+H1        {color:#003399; font-family:Arial}
+H2        {color:#003399; font-family:Arial}
+A:link    {text-decoration:underline; color:#003399}
+A:visited {text-decoration:underline; color:#003399}
+A:hover   {text-decoration:underline; color:blue}
+UL        {margin-top: 0px}
+.trailer  {font-size:smaller; text-align:center; margin-top: 0px}
+@media only screen and (max-width: 640px) {
+  /* narrow screen styling */
+  #container {margin: 0 auto; max-width: 330px; margin-top:10px}
+  .column1 {float:left; width:180px; padding-left:75px}
+  .column2 {float:left; width:350px; padding-left:20px; padding-right:10px}
+  .column3 {float:left; width:300px; padding-left:20px; padding-right:10px}
+  .column4 {float:left; width:300px; padding-left:10px; padding-right:10px}
+  .row {clear:left}
+}
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  /* tablet screen styling */
+  #container {margin: 0 auto; max-width: 650px; margin-top:10px; font-size:16px}
+  .column1 {float:left; width:160px; padding-left:10px; padding-right:20px; padding-top: 25px}
+  .column2 {float:left; width:400px; padding-left:30px; padding-right:10px}
+  .column3 {float:left; width:300px; padding-left:10px; padding-right:0px}
+  .column4 {float:left; width:280px; padding-left:0px; padding-right:10px}
+  .row {clear:left}
+}
+@media only screen and (min-width: 1025px) {
+  /* wide screen styling */
+  #container {margin: 0 auto; max-width: 1050px; margin-top:15px; font-size:17px}
+  .column1 {float:left; width:180px; padding-left:10px; padding-right:20px; padding-top: 15px}
+  .column2 {float:left; width:750px; padding-left:20px; padding-right:10px}
+  .column3 {float:left; width:340px; padding-left:170px; padding-right:10px}
+  .column4 {float:left; width:340px; padding-left:10px; padding-right:10px}
+  .row {clear:left}
+}
